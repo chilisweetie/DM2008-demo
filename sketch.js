@@ -13,7 +13,7 @@ function draw() {
   if (d < radiusA + radiusB){
     fill(0);
   } else {
-    fill(255);
+    fill(255,0,0);
   }
   ellipse(windowWidth/2,windowHeight/2,radiusA *2);
   ellipse(mouseX,mouseY,radiusB *2);
